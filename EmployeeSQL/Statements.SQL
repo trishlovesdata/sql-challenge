@@ -1,0 +1,1 @@
+SELECT "sql-challenge".employees.emp_no,"sql-challenge".employees.last_name,"sql-challenge".employees.first_name,"sql-challenge".employees.sex,"sql-challenge".salaries.salary FROM "sql-challenge".employees JOIN "sql-challenge".salaries ON "sql-challenge".employees.emp_no="sql-challenge".salaries.emp_no;
